@@ -26,6 +26,7 @@ export const AddCategory = ({setCategories}) => {
     return (
         // Le pasamos el evento handleSubmit al formulario
         <form onSubmit={handleSubmit}>
+            <p className="displayPrueba">{ inputValue }</p>
             <input 
                 type="text"
                 // Le pasamos el value del useState

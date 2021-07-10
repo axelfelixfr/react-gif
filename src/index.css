@@ -37,3 +37,7 @@ input {
   margin:auto;
   max-height: 170px;
 }
+
+.displayPrueba{
+  display: none;
+}
